@@ -1,0 +1,51 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+.siyah {
+  background-color: rgb(86, 134, 185);
+}
+table {
+  margin: auto;
+  border: solid rgba(0, 0, 0, 0.884);
+  border-spacing: 0px;
+  border-style: double;
+  border-width: 15px;
+}
+table td {
+  width: 75px;
+  height: 75px;
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  font-size: 50px;
+  line-height: 75px;
+  font-weight: 800px;
+}
+.chess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.title {
+  font-family: "Rubik Bubbles", cursive;
+  color: rgba(2, 0, 0, 0.884);
+  background-color: rgb(86, 134, 185);
+  border-radius: 50%;
+  border-width: 50px;
+  margin: 2px;
+  animation: animate 4s alternate infinite;
+}
+@keyframes animate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  50% {
+    transform: rotateZ(360deg);
+  }
+
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
